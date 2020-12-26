@@ -2,7 +2,7 @@ import express from "express";
 import MongoClient from "mongodb";
 
 const app = express();
-const port = process.env.PORT || 5000;
+const port = 5000;
 
 const uri =
   "mongodb+srv://DBADMIN:Z357x159.@business.pid7b.mongodb.net/<dbname>?retryWrites=true&w=majority";
