@@ -1,10 +1,18 @@
-com/wambly/GeoBusiness/GeoBusinessApplication.java
- com.wambly.GeoBusiness.GeoBusinessApplication
 com/wambly/GeoBusiness/model/Message.java
  com.wambly.GeoBusiness.model.Message
 com/wambly/GeoBusiness/api/APIController.java
  com.wambly.GeoBusiness.api.APIController
+com/wambly/GeoBusiness/model/Location.java
+ com.wambly.GeoBusiness.model.Location
 com/wambly/GeoBusiness/security/AudienceValidator.java
  com.wambly.GeoBusiness.security.AudienceValidator
+com/wambly/GeoBusiness/repository/BusinessRepository.java
+ com.wambly.GeoBusiness.repository.BusinessRepository
+com/wambly/GeoBusiness/GeoBusinessApplication.java
+ com.wambly.GeoBusiness.GeoBusinessApplication
 com/wambly/GeoBusiness/security/SecurityConfig.java
  com.wambly.GeoBusiness.security.SecurityConfig
+com/wambly/GeoBusiness/model/Business.java
+ com.wambly.GeoBusiness.model.Business
+com/wambly/GeoBusiness/api/BusinessMapController.java
+ com.wambly.GeoBusiness.api.BusinessMapController
