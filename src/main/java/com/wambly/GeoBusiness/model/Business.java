@@ -10,16 +10,18 @@ public class Business {
     private String email;
     private String phone;
     private String name;
+    private String category;
     private Location location;
 
     public Business() {
     }
 
-    public Business(String id, String email, String phone, String name, Location location) {
+    public Business(String id, String email, String phone, String name, String category, Location location) {
         this.id = id;
         this.email = email;
         this.phone = phone;
         this.name = name;
+        this.category = category;
         this.location = location;
     }
 
@@ -29,14 +31,6 @@ public class Business {
 
     public void setId(String id) {
         this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public String getEmail() {
@@ -53,6 +47,22 @@ public class Business {
 
     public void setPhone(String phone) {
         this.phone = phone;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getCategory() {
+        return category;
+    }
+
+    public void setCategory(String category) {
+        this.category = category;
     }
 
     public Location getLocation() {
